@@ -1,19 +1,8 @@
-/*
- * libgit2 "log" example - shows how to walk history and get commit info
- *
- * Written by the libgit2 contributors
- *
- * To the extent possible under law, the author(s) have dedicated all copyright
- * and related and neighboring rights to this software to the public domain
- * worldwide. This software is distributed without any warranty.
- *
- * You should have received a copy of the CC0 Public Domain Dedication along
- * with this software. If not, see
- * <http://creativecommons.org/publicdomain/zero/1.0/>.
- */
+//! Dump short stats from git log for a repo.
+//!
+//! Based on: https://github.com/rust-lang/git2-rs/blob/43b8e28ada54120ff55dc550ab177109f162eb10/examples/log.rs#L1
 
 #![deny(warnings)]
-
 use docopt::Docopt;
 use git2::{Commit, DiffOptions, ObjectType, Repository};
 use git2::{DiffStats, Error, Pathspec};
