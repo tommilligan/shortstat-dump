@@ -1,5 +1,5 @@
 [package]
-name = "shortstat-parser"
+name = "shortstat-dump"
 version = "0.1.0"
 authors = ["Tom Milligan <tom@reinfer.io>"]
 edition = "2018"

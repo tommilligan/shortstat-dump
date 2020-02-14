@@ -1,4 +1,4 @@
-# Shortstat Parser
+# Shortstat Dump
 
 Dump short stats for commits over project history.
 
